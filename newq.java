@@ -26,7 +26,7 @@ public class newq {
                 }
             }
             if (q.length != 3) {
-                throw new ArrayIndexOutOfBoundsException("В массиве слишком много значений");
+                throw new ArrayIndexOutOfBoundsException("There are too many values in the array");
             }
             if (Integer.parseInt("0") < 0 || Integer.parseInt("2") < 0) {
             }
@@ -35,7 +35,7 @@ public class newq {
 
 
         } catch (ArrayIndexOutOfBoundsException s) {
-            System.out.println("more simvolov");
+            System.out.println("the format of the mathematical operation does not satisfy the task - two operands and one operator (+, -, /, *)");
         }
 
         switch (q[1]) {

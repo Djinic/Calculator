@@ -10,7 +10,7 @@ public class arabs {
         int number_two = Integer.parseInt(q[2]);
 
         if (Integer.parseInt(q[0]) > 10 || Integer.parseInt(q[2]) > 10){
-            throw new IllegalArgumentException("Введите цифры от 1 до 10");
+            throw new IllegalArgumentException("Enter a number from 1 to 10");
         }
 
         {
