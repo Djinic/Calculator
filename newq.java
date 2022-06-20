@@ -35,7 +35,7 @@ public class newq {
 
 
         } catch (ArrayIndexOutOfBoundsException s) {
-            System.out.println("the format of the mathematical operation does not satisfy the task - two operands and one operator (+, -, /, *)");
+            System.out.println("There are too many values in the array);
         }
 
         switch (q[1]) {
