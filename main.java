@@ -79,9 +79,7 @@ public class main {
                     }
         }
         public static String calc(String input) {
-            System.out.println("enter virogeniy");
             String g = b.nextLine();
-            char[] w = g.toCharArray();
             return g;
 
     }
