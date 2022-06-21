@@ -78,11 +78,7 @@ public class main {
                         }
                     }
         }
-        public static String calc(String input) {
-            String g = b.nextLine();
-            return g;
-
-    }
+    
     public static void mas() {
         arabs v = new arabs(q);
         v.arab();
@@ -99,8 +95,7 @@ public class main {
 
 
 
-Комментарии от ментора по твоему решению ТЗ:
-Не реализовано задание “​​Реализуй класс Main с методом public static String calc(String input). Метод должен принимать строку с арифметическим выражением между двумя числами и возвращать строку с результатом их выполнения”
+
 
 
 
