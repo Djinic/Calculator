@@ -3,12 +3,13 @@ package calc;
 
 import java.util.Scanner;
 
-public class newq {
+public class main {
     static String[] q = new String[3];
     static String[] masRim;
     static String[] aramNum;
+    static  Scanner b = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner b = new Scanner(System.in);
+        
         try {
             System.out.println("enter virogeniy");
             String g = b.nextLine();
@@ -77,6 +78,13 @@ public class newq {
                         }
                     }
         }
+        public static String calc(String input) {
+            System.out.println("enter virogeniy");
+            String g = b.nextLine();
+            char[] w = g.toCharArray();
+            return g;
+
+    }
     public static void mas() {
         arabs v = new arabs(q);
         v.arab();
